@@ -1,0 +1,11 @@
+body{
+    background-color: ivory;
+}
+.greetings,
+.form{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
