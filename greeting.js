@@ -28,7 +28,7 @@ function askForName(){
 }
 
 function loadName(){
-    const currentUser = localStorage.getItem();
+    const currentUser = localStorage.getItem(USER_LS);
     if(currentUser===null)
     {
         askForName();
@@ -39,7 +39,7 @@ function loadName(){
 }
 
 function init(){
-
+    loadName();
 }
 
 init();
